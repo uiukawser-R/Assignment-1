@@ -1,48 +1,47 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
 }
 
-/* banar */
-.banner {
-    padding: 400px 230px 845px 364px;
-    text-align: right;
-    padding-left: 1200px;
-
-
+ul,li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
 }
 
-.header {
-    background-image: url("../images/banner/banner3.png");
-    background-repeat: no-repeat;
 
-    height: 1100px;
-
-
+header{
+    background-image: url(..//images/banner/banner3.png);
+    height: 100vh;
+    background-repeat:  no-repeat;
     background-size: cover;
-
-
+    
 }
 
-.banner-title {
-    color: #FFFFFF;
-    font-weight: 700;
+.banner {
+    margin-right: 10%;
+    text-align: right;
+    padding-top: 20vh;
+}
+
+.banner h1{
     font-size: 65px;
+    color: white;
+    font-weight: 700;
+    
 }
-
-.banner-descriptin {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 24px;
+.banner p{
+    color: white;
 }
-
-.btn-primary {
-    margin-top: 32px;
-    width: 160px;
-    height: 64px;
-    font-weight: 600;
-    font-size: 20px;
+.banner button{
+    color: #005FAC;
+    background-color: white ;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius:  8px;
+    margin-top: 10px;
+    
 }
 
 /* about-container */
@@ -71,7 +70,6 @@
     font-size: 40px;
 }
 
-.section-description {}
 
 /* plan */
 .main2 {
@@ -131,10 +129,20 @@
     height: 300px;
     padding: 50px;
     padding-right: 617px;
-
-
 }
 
+.about-container p{
+    margin-top: 10px;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.lists{
+    margin-top: 10px;
+}
 .contact-title {
     color: #FFFFFF;
     font-weight: 700;
@@ -148,6 +156,8 @@
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
+    border-radius: 6px;
+    border-color: #FFFFFF;
 }
 
 /* footer section */
@@ -155,7 +165,8 @@
     margin-top: 130px;
     display: flex;
     gap: 331px;
-    background: #151414;
+    /* background: #151414; */
+    background: black;
     height: 577px;
     padding: 130px 230px;
 }
