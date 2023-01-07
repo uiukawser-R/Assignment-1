@@ -44,3 +44,75 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+/* about-container */
+.main {
+    max-width: 1072px;
+    margin: 0 auto;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-sub-container {
+    text-align: left;
+    margin-top: 250px;
+    padding-left: 87px;
+}
+
+.about {
+    margin-top: 130px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-description {}
+
+/* plan */
+.main2 {
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+.plans-container {
+    display: flex;
+    /* gap: 30px; */
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+}
+
+.what-i-plan {
+    margin-top: 130px;
+}
+
+.w-section-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #737272;
+}
